@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+- What are the design principles of your site? (Color pallette, fonts, layout, etc.)
+    - Font: Cash Currency
+    - Color pallette: Monochrome
+    - Layout: Flex column
 
-## Getting Started
+- What is the purpose of your site? Why does it need to exist?
+    - The purpose of the site is to remind people of the physical size of money. We hear all of the time about companies and debt reaching astronomical values. It means nothing to most as we have never seen that much money in our lives. It provides a new perspective on the size of money.
 
-First, run the development server:
+- Does your site look good on multiple screen sizes
+    - The site is responsive for desktop and mobile
+    - The font size and flex layout changes with view size
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- What is the Netlify URL of your site
+    - TBD
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- How does your site use state to keep track of user interaction?
+    - The site keeps track of five states:
+        1. Amount of money inputted from the client
+        2. The object name inputted from the client
+        3. The money object storing length, width, and height
+        4. The returned dimensions of the object from the API
+        5. The name of the object returned from the API
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Does your site fetch data from an internal source or a third party API?
+    - The site fetches data from my web scraping API
+- Does your site persist data using a third-party tool or database
+    - No database of API exists regarding retrieving dimensions of physical objects
+    - I created my own API that returns results of webscraping from a search query from dimensions.com.
