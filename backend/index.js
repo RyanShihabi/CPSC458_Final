@@ -46,7 +46,6 @@ const getValIn = (text) => {
     return 0;
 };
 
-
 app.get("/find/:query", async (req, res) => {
     let item_query = req.params.query;
     const url = `https://www.dimensions.com/search?query=${item_query}`;
@@ -92,6 +91,10 @@ app.get("/find/:query", async (req, res) => {
                     width = getValIn(text);
                 } else if(text.includes("Length") || text.includes("Depth")) {
                     length = getValIn(text);
+                }
+
+                if(height != 0 && width != 0 && length != 0){
+                    break;
                 }
             }
 

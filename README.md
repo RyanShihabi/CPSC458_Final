@@ -1,6 +1,6 @@
-- What are the design principles of your site? (Color pallette, fonts, layout, etc.)
+- What are the design principles of your site? (Color palette, fonts, layout, etc.)
     - Font: Cash Currency
-    - Color pallette: Monochrome
+    - Color palette: Monochrome
     - Layout: Flex column
 
 - What is the purpose of your site? Why does it need to exist?

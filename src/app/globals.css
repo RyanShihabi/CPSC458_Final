@@ -1,5 +1,9 @@
 @import url('https://fonts.cdnfonts.com/css/cash-currency');
 
+html, body{
+  /* background-color: #565656; */
+}
+
 .app {
   display: flex;
   flex-direction: column;
@@ -12,6 +16,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+
 }
 
 .entry {
@@ -21,7 +26,7 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 955px) {
+@media screen and (max-width: 768px) {
   .entry {
     flex-direction: column;
   }
@@ -32,14 +37,14 @@
   flex-direction: column;
   justify-content: center;
   place-items: center;
-  padding: 20px;
+  padding: 0px 20px;
 }
 
 .object {
   border: blue solid 3px;
   outline: none;
   font-size: 1.5rem;
-  padding: 20px;
+  padding: 14px 2px;
 }
 
 .object-container {
@@ -47,7 +52,6 @@
   flex-direction: column;
   justify-content: center;
   place-items: center;
-  padding: 5px;
 }
 
 .money {
@@ -58,13 +62,14 @@
 
 .compare-btn {
   width: 200px;
-  height: 10vh;
+  height: 80px;
   background: green;
   border: 3px solid green;
   border-radius: 20px;
   color: white;
   font-family: "Cash Currency";
   font-size: 1.5rem;
+  margin-top: 20px;
 }
 
 .compare-btn:hover {
