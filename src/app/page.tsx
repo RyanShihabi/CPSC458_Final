@@ -47,8 +47,8 @@ export default function App() {
   return (
     <div className="app">
       <h1 className="title">Physical Money Visualizer</h1>
-      <p>It's hard to imagine how a certain amount of cash actually looks like in person.</p>
-      <p>Now's your chance to answer those random what ifs. What does my college tuition look like next to a car?</p>
+      <p>{`It's hard to imagine how a certain amount of cash actually looks like in person.`}</p>
+      <p>{`Now's your chance to answer those random what ifs. What does my college tuition look like next to a car?`}</p>
       
       <div>
         <div className="entry">
