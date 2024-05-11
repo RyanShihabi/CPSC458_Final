@@ -4,6 +4,10 @@ Run instructions:
 1. Install packages `npm i`
 2. `npm run dev`
 
+How to use the site:
+- Simply enter a value in cash (no commas) and an item you would like to compare it to
+- Click Compare (if no item could be found the dimension result will return 0)
+
 - What are the design principles of your site? (Color palette, fonts, layout, etc.)
     - Font: Cash Currency
     - Color palette: Monochrome
