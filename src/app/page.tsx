@@ -24,8 +24,8 @@ export default function App() {
     const billHeight = 0.0043;
     const billLength = 6.14;
 
-    const response: AxiosResponse = await axios.get(`http://23.240.69.246:4000/find/${object}`);
-    // const response: AxiosResponse = await axios.get(`http://localhost:4000/find/${object}`);
+    const response: AxiosResponse = await axios.get(`/api/${object}`);
+    // const response: AxiosResponse = await axios.get(`http://23.240.69.246:4000/find/${object}`);
 
     const data: Obj = response.data;
 
