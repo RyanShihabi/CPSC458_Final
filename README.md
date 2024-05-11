@@ -8,6 +8,7 @@ How to use the site:
 - Simply enter a value in cash (no commas) and an item you would like to compare it to
 - Click Compare (if no item could be found the dimension result will return 0)
 
+Questions
 - What are the design principles of your site? (Color palette, fonts, layout, etc.)
     - Font: Cash Currency
     - Color palette: Monochrome
@@ -33,6 +34,7 @@ How to use the site:
 
 - Does your site fetch data from an internal source or a third party API?
     - The site fetches data from my web scraping API
+
 - Does your site persist data using a third-party tool or database
-    - No database of API exists regarding retrieving dimensions of physical objects
-    - I created my own API that returns results of webscraping from a search query from dimensions.com.
+    - No database or API exists for retrieving dimensions of physical objects
+    - I created my own API that returns results of webscraping a search query from dimensions.com.
