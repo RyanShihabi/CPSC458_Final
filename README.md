@@ -1,3 +1,9 @@
+Ryan Shihabi
+
+Run instructions:
+1. Install packages `npm i`
+2. `npm run dev`
+
 - What are the design principles of your site? (Color palette, fonts, layout, etc.)
     - Font: Cash Currency
     - Color palette: Monochrome
